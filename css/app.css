@@ -1,0 +1,181 @@
+#landing {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/f2.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; }
+  #landing h2 {
+    margin-top: 6em;
+    margin-bottom: -3em; }
+
+body {
+  font-family: 'Open Sans' , sans-serif; }
+
+.cont {
+  border: 1px solid transparent;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+header nav.navbar {
+  margin-bottom: 0;
+  background-color: rgba(51, 51, 51, 0.47);
+  border-width: 0 0 1px 0;
+  border-color: transparent; }
+  header nav.navbar a.navbar-brand {
+    color: rgba(236, 43, 95, 0.99);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em; }
+  header nav.navbar.navbar-default .navbar-nav > li > a, header nav.navbar.navbar-default .navbar-nav > li > a:hover, header nav.navbar.navbar-default .navbar-nav > li > a:visited, header nav.navbar.navbar-default .navbar-nav > li > a:link {
+    color: #FFF; }
+  header nav.navbar.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 3px solid #FFF; }
+header .navbar-right {
+  float: right !important;
+  margin-right: 5px; }
+
+#about {
+  padding: 0 88px;
+  background-color: #a9ff00;
+  color: #FFF;
+  padding-top: 58px;
+  /*p{
+  	text-align: left;
+  }*/
+  /*.row{
+  	padding-top: 37px;
+  }*/ }
+  #about .img-container {
+    padding: 0; }
+  #about h5 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #DF1414;
+    font-weight: bold; }
+  #about h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #3CDF14;
+    font-weight: bold; }
+  #about i {
+    font-size: 3em; }
+  #about .btn-outline {
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    color: #22af74; }
+  #about .abc {
+    text-align: center;
+    min-width: 1px; }
+  #about .btn-default {
+    color: #FFF;
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: none; }
+  #about .right {
+    font-size: 1em;
+    padding: 1em; }
+  #about .fitness {
+    background-color: #FFF;
+    color: #261D1D; }
+  #about .img-responsive {
+    width: 601px;
+    height: 212px; }
+  #about .col-sm-offset-2 {
+    padding: 0; }
+
+#how_works {
+  padding: 0 88px;
+  background-color: #ff7600;
+  color: #FFF; }
+  #how_works .img-container {
+    padding: 0; }
+  #how_works .img-responsive {
+    width: 616px;
+    height: 212px; }
+  #how_works .col-sm-offset-2 {
+    padding: 0;
+    background-color: white;
+    color: black;
+    text-align: center; }
+  #how_works .h5 {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  #how_works .abc {
+    text-align: center;
+    min-width: 1px; }
+    #how_works .abc h5 {
+      text-transform: uppercase;
+      color: #DF2F14;
+      font-weight: bold; }
+    #how_works .abc h2.life {
+      text-transform: uppercase;
+      color: #14DF14;
+      font-weight: bold; }
+    #how_works .abc .fitness {
+      background-color: #5da737;
+      padding-top: 65px; }
+  #how_works .details h5 {
+    text-transform: uppercase;
+    text-align: left;
+    color: #DF2F14;
+    font-weight: bold; }
+  #how_works .details h2 {
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #14DF14; }
+  #how_works .details .improve {
+    color: #FFF; }
+
+#services {
+  width: 100%;
+  height: 140vh;
+  background-image: url("../images/fitness3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #services .container {
+    padding-top: 30em; }
+  #services h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #FFF; }
+  #services p {
+    text-align: center;
+    font-weight: bold;
+    color: #FFF; }
+
+#contect {
+  background-color: #000000;
+  color: #f0f8ff;
+  padding: 0; }
+  #contect .overlay {
+    background-color: rgba(193, 133, 71, 0.7);
+    padding: 0vh 0 3vh; }
+  #contect .row {
+    /*padding-top: 60px;*/
+    margin-right: 0px;
+    margin-left: 0px; }
+  #contect p {
+    font-size: small; }
+  #contect .social-icon {
+    font-size: 34px; }
+  #contect .newsletter-btn {
+    background-color: #3c763d;
+    padding: 7px;
+    border-radius: 7px; }
+  #contect input {
+    padding: 7px;
+    border-radius: 7px; }
+
+footer p {
+  margin: 0 0 10px;
+  text-align: center;
+  color: white;
+  background-color: black; }
+
+/*# sourceMappingURL=app.css.map */
