@@ -2,3 +2,9 @@
 [0923/024655:ERROR:exception_snapshot_win.cc(87)] thread ID 4948 not found in process
 [0923/024655:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
 [0923/024655:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0925/183549:ERROR:process_info.cc(608)] range at 0x90533dce00000000, size 0xf6 fully unreadable
+[0925/183549:ERROR:process_info.cc(608)] range at 0x90533e3600000000, size 0xf6 fully unreadable
+[0925/183549:ERROR:process_info.cc(608)] range at 0x0, size 0xf6 fully unreadable
+[0925/183551:ERROR:process_reader_win.cc(233)] ReadMemory at 0xf690441000 of 61440 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0925/183551:ERROR:crash_report_exception_handler.cc(98)] WriteEverything failed
+[0925/183551:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)

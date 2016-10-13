@@ -1,18 +1,17 @@
 #contect{
 	background-color: #000000;
 	color: #f0f8ff;
-	padding: 0;
-
+	
+	.padding25{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
 	.overlay{
 		background-color: rgba(193, 133, 71, 0.7);
 		padding: 0vh 0 3vh;
 	}
 
-	.row{
-		/*padding-top: 60px;*/
-		margin-right: 0px;
-    	margin-left: 0px;
-	}
+	
 
 	p{
 		font-size: small;
@@ -34,8 +33,10 @@
 
 }
 footer{
+	border-top: 2px solid rgba(0, 0, 0, 0.78);
 	p{
-	margin: 0 0 10px;
+	
+	padding-top: 25px;
     text-align: center;
     color: white;
     background-color: black;
